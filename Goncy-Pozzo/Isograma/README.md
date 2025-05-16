@@ -1,4 +1,4 @@
-## Isograma – Ejercicio de práctica con JavaScript.
+## Isograma – Ejercicio de práctica con TypeScript.
 Un **isograma** es una palabra que **no tiene letras repetidas**.
 
 ---
@@ -23,11 +23,11 @@ Implementar una función en TypeScript que determine si una palabra es un isogra
 ### Sobre la configuración del proyecto
 Durante el desarrollo surgió un error de tipado en TypeScript relacionado con el uso del método .includes() sobre un array. Este método está disponible a partir de ECMAScript 2016 (ES7), por lo que fue necesario ajustar la configuración del compilador. Para resolverlo, se agregó el archivo tsconfig.json que especifica una versión moderna del estándar. Esto asegura que TypeScript reconozca correctamente métodos como .includes().
 
-### ¿Cómo correr el código sin compilar?
+### ¿Cómo correr el código?
 Para no instalar TypeScript localmente o trabajar con npm, se puede usar un entorno online como (ideal para pruebas rápidas):
 
 - TypeScript Playground
-- RunJS (app de escritorio muy práctica)
+- RunJS (app de escritorio)
 - CodeSandbox
 
 
